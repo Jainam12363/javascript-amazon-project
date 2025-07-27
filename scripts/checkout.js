@@ -43,7 +43,7 @@ cart.forEach((cartItem)=>{
         <div class="delivery-date">
             Delivery date: ${dateString}
         </div>
-
+        
         <div class="cart-item-details-grid">
             <img class="product-image"
             src="${matchingProduct.image}">
