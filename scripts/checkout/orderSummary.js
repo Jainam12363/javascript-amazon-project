@@ -5,11 +5,6 @@ import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
 import { deliveryOptions, getDeliveryOption } from "../../data/deliveryOptions.js";
 import { renderPaymentSummary } from "./paymentSummary.js";
 
-
-const today= dayjs();// this is import of external library which brings current date
-const deliveryDate= today.add(7, 'days');  //this adds 7 days from the present date
-console.log(deliveryDate.format('dddd, MMMM D')); //this sets format of date. Its documentation is where we get this external library from
-
 export function renderOrderSummary(){  
 
     let cartSummaryHTML='';
