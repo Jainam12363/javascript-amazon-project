@@ -45,7 +45,6 @@ products.forEach((product)=>{
           </div>
 
           
-
           <div class="product-spacer"></div>
 
           <div class="added-to-cart">
